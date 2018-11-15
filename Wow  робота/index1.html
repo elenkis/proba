@@ -2,13 +2,27 @@
 <html  lang="en">
 <head>
        <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-                 <title>Магазин головних уборів та аксесуарів</title>
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Магазин головних уборів та аксесуарів</title>
+            
         <link rel="stylesheet" href="css/index.css">
+        <!--bootstrap-->
+        <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" 	href="css/animacion.css">
+
  </head>
         <body>
-                <header> 
+               <!-- <header> 
                     <div class="logo">
                         <img src="img/лого1.png" alt="logo" 
                         class="img_class">
@@ -19,7 +33,7 @@
                                 <a href="index1.html">
                                     <li>Новини</li>
                                 </a>
-                                <a href="#">
+                                <a href="tovary.html">
                                     <li>Товари</li>
                                 </a>
                                 <a href="Dostavka.html">
@@ -36,12 +50,41 @@
                         </nav>
                     </div>
                    
-                </header>
+                </header>  -->
                
-                
-                <section class="content">
+                <nav class="navbar navbar-form">
+                    <div class="navbar-header">
+                        <a href="#" class="navbar-brand" style="padding:0;">
+                            <img src="img/лого1.png" alt="Logo" style='height: 100%;'>
+                        </a>
+                    </div>
+                    <ul class='navbar-nav nav'>
+                        <li class='active'><a href="index1.html">Новини</a></li>
+                        <li><a href="tovary.html">Товари</a></li>
+                        <li><a href="Dostavka.html">Доставка</a></li>
+                        <li><a href="Cash.html">Оплата</a></li>
+                        <li><a href="Contacty.html">Контакти</a></li>
+                    </ul>
+                    <form action="post" class="navbar-form navbar-right">
+            
+                        <div class='form-group'>
+                            <div class='input-group'>
+                                <input type="text" placeholder='Find' class='form-control'>
+                                <div class="input-group-btn">
+                                    <button class='btn btn-primary '>
+                                        <i class="glyphicon glyphicon-search"></i>
+            
+                                    </button>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </form>
+                </nav>
+                <section class="content" >
                    <!-- /*<div id='id'></div>*/-->
-                    <article>
+                    <article >
                         
                             <div class="menu"><a href="#">Жіночі</a></div>           
 <div class="img_article"><img src="img/women_1.jpg" alt="nowost"></div>
@@ -75,7 +118,7 @@
                             </div>
                             <div class="data">жовтень 2018</div>
                     </article>
-                    <article>
+                    <article >
                             <div class="menu"><a href="#">Дитячі</a></div>           
                             <div class="img_article"><img src="img/kids.jpg" alt="nowost"></div>
                             <div>
