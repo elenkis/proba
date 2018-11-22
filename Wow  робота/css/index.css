@@ -5,7 +5,7 @@ body{
 
 }
 header{
-    background-color: black;
+   background-color: black;
    height:200px;
    display: flex; 
    align-items: center;
@@ -20,7 +20,7 @@ nav{
 }
 #locations{
 	width: 100%;
-    height: 300 px;
+    height: 300px;
     /*position: fixed;*/
     top: 0;
     /*left: 0;*/
@@ -78,6 +78,7 @@ ul{
     flex-direction: row;
 }
 .section{
+    height: 1000px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -86,12 +87,15 @@ article{
     border: 1px solid grey;
     height: 800px;
     width: 300px;
+    display:flex !important;
+    flex-direction: column;
 }
 article img{
     object-fit: contain;
     height: 300px;
+    align-self: center;
     align-items: center;
-    display: flex;
+  
     justify-content: space-between;
     flex-wrap: wrap;
     flex-direction: row;
